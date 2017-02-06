@@ -1,0 +1,12 @@
+# Site settings
+title: Hejare
+description: Hejare är...
+
+#baseurl
+#url
+
+# Build settings
+markdown: kramdown
+exclude:
+  - Gemfile
+  - Gemfile.lock

@@ -1,0 +1,7 @@
+---
+layout: home
+---
+
+# Hejare
+
+Hej!
