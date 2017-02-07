@@ -1,12 +1,8 @@
 ---
-layout: agency
+layout: centered
 ---
 
 
-{% capture callout %}
+![Hejare logotyp](images/hejare-rgb_blue.png "Hejare")
 
-# Vi är hejare på...
-
-{% endcapture %}
-
-{% include content.html %}
+Ny webb på G!
