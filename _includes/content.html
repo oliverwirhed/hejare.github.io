@@ -1,0 +1,88 @@
+<div class="callout large">
+  <div class="row column text-center" markdown="1">
+      {{ callout }}
+  </div>
+</div>
+
+
+<div class="row column">
+  <h2>Vi är hejare</h2>
+</div>
+
+<div class="row small-up-1 medium-up-2 large-up-2">
+
+  {% for employee in site.data.employees %}
+  <div class="column column-block media-object">
+    <div class="media-object-section">
+      <img src="https://api.adorable.io/avatars/160/{{ employee.name }}@hejare.png">
+    </div>
+    <div class="media-object-section">
+      <h4>{{ employee.name }}</h4>
+      <p class="lead">{{ employee.tagline }}</p>
+    </div>
+  </div>
+  {% endfor %}
+
+</div>
+
+<hr>
+
+<div class="row column">
+  <h2>Case i urval</h2>
+</div>
+
+<div class="row orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+  <ul class="orbit-container">
+    <button class="orbit-previous" aria-label="previous"><span class="show-for-sr">Föregående Case</span>&#9664;</button>
+    <button class="orbit-next" aria-label="next"><span class="show-for-sr">Nästa Case</span>&#9654;</button>
+
+    <!-- TODO: add class is-active to first -->
+
+    {% for case in site.data.cases %}
+      {% if forloop.first == true %}
+      <li class="orbit-slide is-active">
+      {% else %}
+      <li class="orbit-slide">
+      {% endif %}
+        <div>
+          <h3>{{ case.name }}</h3>
+          <p>{{ case.description }}</p>
+        </div>
+      </li>
+    {% endfor %}
+
+  </ul>
+  <nav class="orbit-bullets">
+
+
+  <!-- TODO: Add class is-active to button -->
+
+   {% for case in site.data.cases %}
+
+    {% if forloop.first == true %}
+    <button class="is-active" data-slide="{{ forloop.index | minus: 1}}">
+      <span class="show-for-sr">Case {{ forloop.index }}</span>
+      <span class="show-for-sr">Current Slide</span>
+    </button>
+    {% else %}
+    <button data-slide="{{ forloop.index | minus: 1 }}">
+      <span class="show-for-sr">Case {{ forloop.index }}</span>
+    </button>
+    {% endif %}
+   {% endfor %}
+
+  </nav>
+</div>
+
+
+<hr>
+
+<div class="row column">
+  <h2>Kontaktuppgifter</h2>
+</div>
+
+<footer class="row column full-width">
+  <div class="row">
+   <p>Kontaktuppgifter</p>
+  </div>
+</footer>
