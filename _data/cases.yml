@@ -1,5 +1,7 @@
 - name: Parkeringsprojekt
   description: Coolt uppdrag för parkeringskund
+  image: parking.svg
 
 - name: Bankuppdraget
   description: Sjukt viktigt uppdrag för alla mämniskors överlevnad
+  image: bank.svg
