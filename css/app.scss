@@ -44,6 +44,11 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   margin-bottom: 2em;
+
+}
+
+.callout.large.what-we-are {
+  padding: 10em;
 }
 
 // Who we are
@@ -123,7 +128,7 @@ hr {
 
 // Typed.js
 
-.typed-cursor{
+.typed-cursor {
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;
     -moz-animation: blink 0.7s infinite;
