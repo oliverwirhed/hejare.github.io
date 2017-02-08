@@ -73,6 +73,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .what-we-are-doing {
 
+  margin-bottom: 4em;
+
   .figure {
     width: 150px;
   }
@@ -141,4 +143,78 @@ hr {
     0% { opacity:1; }
     50% { opacity:0; }
     100% { opacity:1; }
+}
+
+// Footer
+
+.footer {
+  background-color: $swedishDarkBlue;
+  color: #fff;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 4rem;
+  p {
+    &.slogan {
+      color: $swedishGray;
+      font-size: 1.8rem;
+      margin: 0 0 1rem;
+    }
+    &.copywrite {
+      color: #8f9296;
+      font-size: 0.875rem;
+      margin: 0;
+    }
+  }
+  .links a {
+    list-style: none;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 3rem 0 2rem;
+    margin: 0;
+    &::after {
+      content: "•";
+      padding: 0 0.4rem 0 0.8rem;
+    }
+    &:last-child::after {
+      content: "";
+      padding: 0 0.4rem 0 0.8rem;
+    }
+  }
+}
+
+
+footer h4 {
+		color: #e5e5e5;
+		font-weight: 100;
+		margin-bottom: 0.25rem;
+}
+
+
+footer h4 {
+    margin-bottom: 2rem;
+    &:before {
+      font-family: "foundation-icons";
+      font-weight: 300;
+      padding-top: 0.2rem;
+      font-size: 2rem;
+      color: $swedishGreenBlue;
+      padding-left: 0.5rem;
+      padding-right: 1.65rem;
+      -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: $swedishGreenBlue;
+  }
+
+  &.phone:before {
+    content: "\f1f8";
+  }
+
+  &.email:before {
+    content: "\f16d";
+  }
+
+  &.address:before {
+    content: "\f172 ";
+  }
+
 }
