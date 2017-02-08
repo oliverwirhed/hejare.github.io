@@ -22,8 +22,20 @@
 
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.0/js/foundation.min.js"></script>
+    <script src="js/vendor/typed.min.js"></script>
+
     <script>
       $(document).foundation();
+
+
+      var skills = {{ site.data.skills | jsonify }};
+
+      $(function(){
+        $(".what-we-are em").typed({
+          strings: skills,
+          typeSpeed: 100
+        });
+      });
     </script>
   </body>
 </html>
