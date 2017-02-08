@@ -2,6 +2,16 @@
   display: block !important;
 }
 
+.top-bar {
+  background-color: #fff;
+
+}
+
+.top-bar .logotype {
+  width: 13em;
+  margin: 1em;
+}
+
 /*
 
 Foundation 6.3.0
