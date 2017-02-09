@@ -5,3 +5,11 @@
 - name: Bankuppdraget
   description: Sjukt viktigt uppdrag för alla mämniskors överlevnad
   image: bank.svg
+
+- name: Superstort Spelföretag
+  description: Med hemliga tekniker ser vi till att människor kan spela med varandra!
+  image: gaming.svg
+
+- name: Taxi behöver också IT
+  description: Vi hjälper ett taxiföretag ta sig från A till B!
+  image: taxi.svg
