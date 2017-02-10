@@ -5,7 +5,7 @@ layout: agency
 
 {% capture callout %}
 
-# Vi är hejare på <em></em>
+# <span class="already-typed">Vi är hejare på </span><em></em>
 
 {% endcapture %}
 
