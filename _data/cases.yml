@@ -1,19 +1,19 @@
-- name: Parkeringsprojekt
+- name: Supersmidiga städer
   image: parking.svg
   description: Kunden är en snabbt växande och globalt ledande aktör i att hitta, betala och hantera parkeringar. Hejare har varit med från början i utvecklingen av en helt ny produkt. Vi har crunchat UX flöden i massor och tagit fram UI och design. Vi har tillsammans med kunden fullstackutvecklat med fräscha Javascript ramverk och kopplingar mot avancerade algoritmer. Projektet är påhejat av hela organisationen och kundens kunder är engagerade och ser mycket fram emot att jobba i det.
 
 
-- name: Bankuppdraget
+- name: Helt nödvändig business
   image: bank.svg
   description: Hejare leder och är även en del av ett produktteam som arbetar i hela stacken. Teamet jobbar med ett antal produkter med tydligt produktägande och fokus just nu är att byta ut ett kärnsystem samtidigt som vi kontinuerligt jobbar in ny teknologi i en micro services arkitektur. Banken har en framåtlutad och självorganiserande techorganisation och vi delar verkligen deras värderingar.
 
 
-- name: Superstort Spelföretag
+- name: Dataspelsbolaget
   image: gaming.svg
   description: Kunden är en hyllad och ledande spelstudio och vi är riktigt glada i dem. Vi jobbar med utvecklingen av en av deras kommande titlar. Det är massor av scripting, C++, UI och så spelar vi spelet i olika grader av ofärdigt för att testa!
 
 
-- name: Taxi behöver också IT
+- name: Framtidens transportlösningar
   image: taxi.svg
   description: Kunden är ett techbolag med stora ambitioner som investerar i ny teknologi för att förändra och förbättra persontransporter. Vi bygger tillsammans med kunden en ny och skalbar teknisk plattform för att konkurrera med andra ledande aktörer på global nivå. Samtidigt håller vi liv tekniken som gör att affärerna som berör människor och företagare dagligen fungerar väl.
 
