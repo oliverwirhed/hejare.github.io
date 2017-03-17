@@ -10,3 +10,5 @@ markdown: kramdown
 exclude:
   - Gemfile
   - Gemfile.lock
+
+repository: hejare/hejare.github.io
