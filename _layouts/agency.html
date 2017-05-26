@@ -29,7 +29,9 @@
           <p class="slogan">Är du en hejare på något? Hör av dig!</p>
           <h4 class="email"><a href="mailto:{{ site.data.company.email }}">{{ site.data.company.email }}</a></h4>
           <h4 class="phone"><a href="tel:{{ site.data.company.phone }}">{{ site.data.company.phone }}</a></h4>
+          {% if site.data.company.address != undefined %}
           <h4 class="address"><br>{{ site.data.company.address | replace: ',', '<br/>'  }}</h4>
+          {% endif %}
           <p class="copywrite">Crafted with love by incredible techies at Hejare 2017</p>
         </div>
       </div>
@@ -43,7 +45,7 @@
       $(document).foundation();
 
 
-      var skills = {{ site.data.skills | jsonify }};
+      var skills = {{ site.data.skills | jsonify }};
 
       skills[skills.length - 1] += "^5000";
       skills.push("");
