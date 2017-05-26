@@ -53,18 +53,24 @@ h1, h2, h3, h4, h5, h6 {
 // Who we are
 .who-we-are {
 
-  .title {
-    margin-bottom: 1em;
+  .techie {
+    margin-top: 2em;
+    margin-bottom: 2em;
   }
 
-  .techie {
-    margin-bottom: 4em;
+  .name {
+    text-align: center;
+  }
+
+  .tagline {
+    max-width: 24em;
   }
 
   .techie .portrait {
-    width: 6em;
+    width: 10em;
     border: 2px solid $swedishGreenBlue;
     border-radius: 100%;
+    margin-bottom: 1.5em;
 
   }
 }
@@ -78,6 +84,10 @@ h1, h2, h3, h4, h5, h6 {
 .what-we-are-doing {
 
   margin-bottom: 4em;
+
+  .case {
+    margin-top: 1.5em;
+  }
 
   .figure {
     width: 150px;
