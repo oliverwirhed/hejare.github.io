@@ -1,9 +1,30 @@
 <div class="callout large what-we-are">
   <div class="row column text-center" markdown="1">
-      {{ callout }}
+    {{ callout }}
   </div>
 </div>
 
+
+<div class="row column">
+  <h2>Case i urval</h2>
+</div>
+
+
+<div class="row what-we-are-doing" aria-label="Case i urval">
+  {% for case in site.data.cases %}
+  <div class="case row">
+    <div class="figure-container column large-4">
+      <img src="images/{{ case.image }}" class="figure" />
+    </div>
+    <div class="column large-8">
+      <h3>{{ case.name }}</h3>
+      <p>{{ case.description }}</p>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+<hr>
 
 <div class="row column who-we-are">
   <h2 class="title">Vi är hejare</h2>
@@ -23,59 +44,4 @@
   </div>
   {% endfor %}
 
-</div>
-
-<hr>
-
-<div class="row column">
-  <h2>Case i urval</h2>
-</div>
-
-
-<div class="row orbit what-we-are-doing" role="region" aria-label="Case i urval" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
-  <ul class="orbit-container">
-    <button class="orbit-previous" aria-label="previous"><span class="show-for-sr">Föregående Case</span>&#9664;</button>
-    <button class="orbit-next" aria-label="next"><span class="show-for-sr">Nästa Case</span>&#9654;</button>
-
-    <!-- TODO: add class is-active to first -->
-
-    {% for case in site.data.cases %}
-      {% if forloop.first == true %}
-      <li class="orbit-slide is-active">
-      {% else %}
-      <li class="orbit-slide">
-      {% endif %}
-        <div class="case row">
-          <div class="figure-container column large-4">
-            <img src="images/{{ case.image }}" class="figure"/>
-          </div>
-          <div class="column large-8">
-            <h3>{{ case.name }}</h3>
-            <p>{{ case.description }}</p>
-          </div>
-        </div>
-      </li>
-    {% endfor %}
-
-  </ul>
-  <nav class="orbit-bullets">
-
-
-  <!-- TODO: Add class is-active to button -->
-
-   {% for case in site.data.cases %}
-
-    {% if forloop.first == true %}
-    <button class="is-active" data-slide="{{ forloop.index | minus: 1}}">
-      <span class="show-for-sr">Case {{ forloop.index }}</span>
-      <span class="show-for-sr">Current Slide</span>
-    </button>
-    {% else %}
-    <button data-slide="{{ forloop.index | minus: 1 }}">
-      <span class="show-for-sr">Case {{ forloop.index }}</span>
-    </button>
-    {% endif %}
-   {% endfor %}
-
-  </nav>
 </div>

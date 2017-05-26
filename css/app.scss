@@ -18,13 +18,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-.orbit {
-  display: block !important;
-}
-
 .top-bar {
   background-color: #fff;
-
 }
 
 .top-bar .logotype {
@@ -89,46 +84,13 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.orbit-slide {
-  padding: 1em 3em;
-}
-
-.orbit-bullets button {
-    width: 1rem;
-    height: 1rem;
-    margin: 0.2rem;
-    border-radius: 100%;
-    background-color: #fff;
-    border: 2px solid $swedishGreenBlue;
-}
-
-.orbit-bullets button:hover {
-  background-color: $swedishGreenBlue;
-}
-
-.orbit-bullets button.is-active {
-  background-color: $swedishGreenBlue;
-}
-
-.orbit-previous, .orbit-next {
-  color: $swedishGray;
-  margin: 0 0.5em;
-
-}
-
-.orbit-previous:hover, .orbit-next:hover, .orbit-previous:active, .orbit-next:active, .orbit-previous:focus, .orbit-next:focus {
-  background-color: rgba($swedishDarkBlue, 0.10);
-}
-
-
+// Other stuff
 
 hr {
   border-bottom: 1px solid $swedishGreenBlue;
   margin-top: 2em;
   margin-bottom: 2em;
 }
-
-
 
 // Typed.js
 
@@ -193,9 +155,9 @@ hr {
 
 
 footer h4 {
-		color: #e5e5e5;
-		font-weight: 100;
-		margin-bottom: 0.25rem;
+  color: #e5e5e5;
+  font-weight: 100;
+  margin-bottom: 0.25rem;
 }
 
 
