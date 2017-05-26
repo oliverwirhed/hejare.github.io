@@ -1,5 +1,5 @@
 <div class="callout large what-we-are">
-  <div class="row column text-center" markdown="1">
+  <div class="row column" markdown="1">
     {{ callout }}
   </div>
 </div>
@@ -35,7 +35,7 @@
   {% for employee in site.data.employees %}
   <div class="column column-block techie">
     <img src="images/employees/{{ employee.name }}.jpg" class="portrait float-center" alt="{{ employee.name }}">
-    <h3 class="name">{{ employee.name }}</h3>
+    <h3 class="name text-center">{{ employee.name }}</h3>
     <p class="tagline float-center">{{ employee.tagline }}</p>
   </div>
   {% endfor %}

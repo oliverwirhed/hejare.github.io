@@ -1,14 +1,11 @@
 ---
 ---
 
-
 // COLORS
 $swedishYellow: #f7ea48; // f7ea4c
 $swedishDarkBlue: #233747;
 $swedishGray: #7a7d81;
 $swedishGreenBlue: #159aaa; // 189aaa
-
-
 body {
   font-family: Avenir, Futura, sans-serif;
 }
@@ -16,7 +13,6 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: Avenir, Futura, sans-serif;
 }
-
 
 .top-bar {
   background-color: #fff;
@@ -27,9 +23,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 1em;
 }
 
-
 // What we are
-
 .what-we-are {
   background-color: $swedishDarkBlue;
 
@@ -39,27 +33,36 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   margin-bottom: 2em;
+  min-height: 11em;
 
   em.nice {
     color: $swedishYellow;
   }
 
+  &.callout.large {
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+
+    @media screen and (min-width: 40em) {
+      padding: 6rem 3rem;
+      min-height: 21rem;
+    }
+
+    @media screen and (min-width: 75em) {
+      padding: 6rem 3rem;
+      min-height: initial;
+    }
+
+  }
 }
 
-.callout.large.what-we-are {
-  padding: 10em;
-}
+
 
 // Who we are
 .who-we-are {
-
   .techie {
     margin-top: 2em;
     margin-bottom: 2em;
-  }
-
-  .name {
-    text-align: center;
   }
 
   .tagline {
@@ -71,18 +74,15 @@ h1, h2, h3, h4, h5, h6 {
     border: 2px solid $swedishGreenBlue;
     border-radius: 100%;
     margin-bottom: 1.5em;
-
   }
 }
 
 // What we are doing
-
 .figure-container {
   text-align: center;
 }
 
 .what-we-are-doing {
-
   margin-bottom: 4em;
 
   .case {
@@ -95,7 +95,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 // Other stuff
-
 hr {
   border-bottom: 1px solid $swedishGreenBlue;
   margin-top: 2em;
@@ -103,59 +102,83 @@ hr {
 }
 
 // Typed.js
-
 .typed-cursor {
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+  0% {
     opacity: 1;
-    -webkit-animation: blink 0.7s infinite;
-    -moz-animation: blink 0.7s infinite;
-    animation: blink 0.7s infinite;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
-@keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
+
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
-@-webkit-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
-}
-@-moz-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
+
+@-moz-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 // Footer
-
 .footer {
   background-color: $swedishDarkBlue;
   color: #fff;
   text-align: center;
   font-size: 1.2rem;
   padding: 4rem;
+
   p {
     &.slogan {
       color: $swedishGray;
       font-size: 1.8rem;
       margin: 0 0 1rem;
     }
+
     &.copywrite {
       color: #8f9296;
       font-size: 0.875rem;
       margin: 0;
     }
   }
+
   .links a {
     list-style: none;
     font-weight: bold;
     color: #ffffff;
     padding: 3rem 0 2rem;
     margin: 0;
+
     &::after {
       content: "•";
       padding: 0 0.4rem 0 0.8rem;
     }
+
     &:last-child::after {
       content: "";
       padding: 0 0.4rem 0 0.8rem;
@@ -163,25 +186,25 @@ hr {
   }
 }
 
-
 footer h4 {
   color: #e5e5e5;
   font-weight: 100;
   margin-bottom: 0.25rem;
 }
 
-
 footer h4 {
-    margin-bottom: 2rem;
-    &:before {
-      font-family: "foundation-icons";
-      font-weight: 300;
-      padding-top: 0.2rem;
-      font-size: 2rem;
-      color: $swedishGreenBlue;
-      padding-left: 0.5rem;
-      padding-right: 1.65rem;
-      -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+  margin-bottom: 2rem;
+
+  &:before {
+    font-family: "foundation-icons";
+    font-weight: 300;
+    padding-top: 0.2rem;
+    font-size: 2rem;
+    color: $swedishGreenBlue;
+    padding-left: 0.5rem;
+    padding-right: 1.65rem;
+    -webkit-text-fill-color: transparent;
+    /* Will override color (regardless of order) */
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: $swedishGreenBlue;
   }
@@ -197,5 +220,4 @@ footer h4 {
   &.address:before {
     content: "\f172 ";
   }
-
 }
