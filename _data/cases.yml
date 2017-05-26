@@ -1,19 +1,19 @@
 - name: Supersmidiga städer
   image: parking.svg
-  description: Kunden är en snabbt växande och globalt ledande aktör i att hitta, betala och hantera parkeringar. Hejare har varit med från början i utvecklingen av en helt ny produkt. Vi har crunchat UX flöden i massor och tagit fram UI och design. Vi har tillsammans med kunden fullstackutvecklat med fräscha Javascript ramverk och kopplingar mot avancerade algoritmer. Projektet är påhejat av hela organisationen och kundens kunder är engagerade och ser mycket fram emot att jobba i det.
+  description: Kunden är en snabbt växande och globalt ledande aktör i att hitta, betala och hantera parkeringar. Hejare har varit med från början i utvecklingen av en helt ny produkt. I ett tätt samarbete med kunden och användare har vi itererat fram superhärlig UX och design. Med fräscha JavaScript-ramverk har vi tillsammans med kunden arbetat fullstack och i symbios med avancerade algoritmer. Projektet är påhejat av hela organisationen och kundens kunder ser fram emot att jobba i det.
 
 
 - name: Helt nödvändig business
   image: bank.svg
-  description: Hejare leder och är även en del av ett produktteam som arbetar i hela stacken. Teamet jobbar med ett antal produkter med tydligt produktägande och fokus just nu är att byta ut ett kärnsystem samtidigt som vi kontinuerligt jobbar in ny teknologi i en micro services arkitektur. Banken har en framåtlutad och självorganiserande techorganisation och vi delar verkligen deras värderingar.
+  description: Hejare både leder och är en del av ett produktteam på en bank. Teamet jobbar fullstack och förvaltar samt utvecklar produkter som ligger i framkant och utmanar andra aktörer i branschen. Vi är med och påverkar såväl teknisk arkitektur och fattar svåra beslut tillsammans med organisationen när gamla system ska bytas ut och förnyas. Banken har en framåtlutad och självorganiserande techorganisation -- precis som vi.
 
 
 - name: Dataspelsbolaget
   image: gaming.svg
-  description: Kunden är en hyllad och ledande spelstudio och vi är riktigt glada i dem. Vi jobbar med utvecklingen av en av deras kommande titlar. Det är massor av scripting, C++, UI och så spelar vi spelet i olika grader av ofärdigt för att testa!
+  description: Kunden är en hyllad och ledande spelstudio som utan motstycke exporterat modern kultur världen över. Vi jobbar med utvecklingen av en av deras kommande titlar. Det är massor av scripting, C++, UI och så spelar vi spelet i alla nyanser av ofärdigt för att säkerställa dess kvalitet!
 
 
 - name: Framtidens transportlösningar
   image: taxi.svg
-  description: Kunden är ett techbolag med stora ambitioner som investerar i ny teknologi för att förändra och förbättra persontransporter. Vi bygger tillsammans med kunden en ny och skalbar teknisk plattform för att konkurrera med andra ledande aktörer på global nivå. Samtidigt håller vi liv tekniken som gör att affärerna som berör människor och företagare dagligen fungerar väl.
+  description: Kunden är ett techbolag med stora ambitioner som investerar i ny teknologi för att förändra och förbättra persontransporter. Tillsammans med kunden bygger vi en ny och skalbar teknisk plattform för att konkurrera med andra ledande aktörer på global nivå. Vi ser till att både teknik och gränssnitt är på plats och kontinuerligt förbättras. Med bättre affärer förbättras vardagen för både privatkunder och företagare.
 
