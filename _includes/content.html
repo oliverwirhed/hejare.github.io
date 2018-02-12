@@ -34,7 +34,11 @@
 
   {% for employee in site.data.employees %}
   <div class="column column-block techie">
-    <img src="images/employees/{{ employee.name }}.jpg" class="portrait float-center" alt="{{ employee.name }}">
+    {% if employee.altImageName != null %}
+      <img src="images/employees/{{ employee.altImageName }}" class="portrait float-center" alt="{{ employee.name }}">
+    {% else %}
+      <img src="images/employees/{{ employee.name }}.jpg" class="portrait float-center" alt="{{ employee.name }}">
+    {% endif %}
     <h3 class="name text-center">{{ employee.name }}</h3>
     <p class="tagline float-center">{{ employee.tagline }}</p>
   </div>
