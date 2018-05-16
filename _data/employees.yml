@@ -17,3 +17,7 @@
 - name: Set
   tagline: Hejares alldeles egna tech wizard. Är det svårt så är det kul. Kod och tech lead med förståelse för affären och beteenden i team gör Set till alla teams stabila klippa. En vegetarisk globetrotter med många barnvagnar i garaget!
   altImageName: Set.jpg  
+
+- name: Sebastian
+  tagline: "Sebastian har huvudet uppe bland molntjänster, infrastruktur och tooling. Vad applikationen gör är förstås viktigt, men desto roligare är allting runt omkring: hur den byggs, deployas, skalas, monitoreras, felsöks och trivs med livet rent allmänt. När Sebastian inte avnjuter nyhetsbreven från AWS med en kopp kaffe så jobbar han intensivt på att bli Sveriges snabbaste trummis!"
+  altImageName: Sebastian.jpg
