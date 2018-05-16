@@ -10,5 +10,9 @@ run: build
 		--tty \
 		--mount type=bind,source=$(PWD),target=/srv/jekyll \
 		--mount type=volume,target=$(PWD)/.git \
+		-p 4000:4000 \
 		$(IMAGE_TAG) \
-		jekyll serve
+		bundle exec jekyll serve \
+			--port 4000 \
+			--host 0.0.0.0 \
+			--force_polling
