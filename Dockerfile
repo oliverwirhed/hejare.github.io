@@ -6,7 +6,7 @@ WORKDIR /srv/jekyll
 RUN apk add --no-cache alpine-sdk
 
 # Copy only necessary dependencies (everything else will be mounted on run).
-COPY ./Gemfile ./Gemfile.lock ./
+COPY ./Gemfile* ./
 RUN bundle install
 
 CMD ["jekyll", "--help"]
