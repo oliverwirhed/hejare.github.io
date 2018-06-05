@@ -1,9 +1,10 @@
+default:
+	@ cat ./Makefile
+
 IMAGE_TAG=hejare-github-io
 
-build:
-	docker build --tag $(IMAGE_TAG) .
-
-run: build
+run:
+	docker build --tag $(IMAGE_TAG) ./
 	docker run \
 		--rm \
 		--interactive \
