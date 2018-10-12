@@ -13,7 +13,14 @@
   description: Kunden är en hyllad och ledande spelstudio som utan motstycke exporterat modern kultur världen över. Vi jobbar med utvecklingen av en av deras kommande titlar. Det är massor av scripting, C++, UI och så spelar vi spelet i alla nyanser av ofärdigt för att säkerställa dess kvalitet!
 
 
-- name: Framtidens transportlösningar
-  image: taxi.svg
-  description: Kunden är ett techbolag med stora ambitioner som investerar i ny teknologi för att förändra och förbättra persontransporter. Tillsammans med kunden bygger vi en ny och skalbar teknisk plattform för att konkurrera med andra ledande aktörer på global nivå. Vi ser till att både teknik och gränssnitt är på plats och kontinuerligt förbättras. Med bättre affärer förbättras vardagen för både privatkunder och företagare.
+- name: Nya sätt att ta sig fram i staden
+  image: bicycles.svg
+  description: Kunden är en internationell koncern inom marknadsföring som har tagit fram ett nytt koncept för privatpersoner att transportera sig i stadsmiljöer. Hejare fick ansvaret att som spindeln i nätet ta fram den tekniska lösningen och möjliggöra utrullningen.
 
+- name: Från Business Intelligence till Machine Learning
+  image: machine-learning.svg
+  description: Kunden är en snabbt växande aktör inom online casino och sports betting. Hejare fick uppdraget att bygga upp en ny avdelning med ambition att utforska och implementera machine learning för en bättre och mer individanpassad kundupplevelse.
+
+- name: Nya sätt att ta betalt för småbolag
+  image: payments.svg
+  description: Kunden är en snabbväxare som hjälper små företag att ta betalt för varor och tjänster. Satsningen fortsätter och man bad Hejare om hjälp att utveckla det kritiska steget i den inledande kundresan för nya kunder. Målet är att alla småföretagare enkelt och mycket effektivt komma igång med handel.
