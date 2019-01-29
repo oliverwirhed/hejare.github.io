@@ -12,19 +12,15 @@
 
 - name: Leo
   tagline: Gedigen utvecklare med känsla för helhet och kvalité. Älskar att dampa loss hemma i trädgården, där rabatter och trallar flyger åt alla håll. Leo har en nyfunnen passion att träna Thaiboxning samt traditionell boxning, troligen är detta en sorts 40-årskris.
-  altImageName: Leo.png
 
 - name: Markus
   tagline: Markus är innovations- och vetenskapsfantast som tror att det mesta kan lösas med en påhittig teknisk lösning. Han tror starkt på att team av engagerade människor från olika bakgrund kan uträtta storverk mot ett gemensamt mål. Med sig har han erfarenhet av webb-, spel- och algoritmutveckling i en uppsjö av språk och miljöer. I lurarna spelas jazz, soul och funk och hans många gitarrer är alltid nära till hands.
-  altImageName: Markus.png
 
 - name: Set
   tagline: Hejares alldeles egna tech wizard. Är det svårt så är det kul. Kod och tech lead med förståelse för affären och beteenden i team gör Set till alla teams stabila klippa. En vegetariansk globetrotter med många barnvagnar i garaget!
-  altImageName: Set.jpg
 
 - name: Sebastian
   tagline: "Sebastian har huvudet uppe bland molntjänster, infrastruktur och tooling. Vad applikationen gör är förstås viktigt, men desto roligare är allting runt omkring: hur den byggs, deployas, skalas, monitoreras, felsöks och trivs med livet rent allmänt. När Sebastian inte avnjuter nyhetsbreven från AWS med en kopp kaffe så jobbar han intensivt på att bli Sveriges snabbaste trummis!"
-  altImageName: Sebastian.jpg
 
 - name: Johan
   tagline: "Låt dig inte luras av Johans lugna och trevliga uppenbarelse, för under ytan lurar ett knivskarpt intellekt som lätt kan dissekera vilket bekymmer som helst. Lyckligtvis använder han det för att lösa tekniska utmaningar och ett och annat brädspel och inte för världsherravälde (vad vi vet)."
@@ -32,12 +28,9 @@
 
 - name: Frida
   tagline: "Frida brinner för Machine Learning nästan så mycket att det lyser ur hennes ögon. Hon är en doer av rang och när hon inte sprider kunskap och glädje på jobbet renoverar hon hus med sin syster och spelar in techfilmer för att även engagera personer utanför den innersta nördkretsen."
-  altImageName: hejarex.jpg
 
 - name: Yvonne
   tagline: "Yvonne tar sig gärna an nya utmaningar, nya tekniker och nya männsikor - alltid ett leende på läpparna. Om det dessutom kan innehålla mänskliga språk och Natural Language Processing är lyckan gjord."
-  altImageName: hejarey.jpg
 
 - name: Johan
   tagline: "Johan är en generalist med erfarenheter inom utveckling, projektledning och produktägande. Media och finans är exempel på branscher där han har stor kännedom. Två nyckelord som speglar honom är effektiv och flexibel. Johan är i övrigt en sportfåne som konsumerar i princip vad som helst."
-  altImageName: Johan.jpg
