@@ -1,5 +1,5 @@
 - name: Albin
-  tagline: Albin är systemutvecklare med intresse för allting som handlar om data. Handlar det om att plocka fram nya ML-lösningar på gamla problem eller att bygga back end- och molnlösningar för komplexa system blir han extra exalterad. Han är en engagerad lagspelare som älskar när människor ges möjlighet att lära sig av varandra. När Albin inte knackar kod i Vim så ägnar han fritiden åt att läsa böcker, spela bas och vara ute med sin stora vita hund. 
+  tagline: Albin är systemutvecklare med intresse för allting som handlar om data. Handlar det om att plocka fram nya ML-lösningar på gamla problem eller att bygga back end- och molnlösningar för komplexa system blir han extra exalterad. Han är en engagerad lagspelare som älskar när människor ges möjlighet att lära sig av varandra. När Albin inte knackar kod i Vim så ägnar han fritiden åt att läsa böcker, spela bas och vara ute med sin stora vita hund.
 
 - name: Henrik
   tagline: Henrik kombinerar djup teknisk kunskap och problemlösning med en enastående förmåga att fylla rummet med entusiasm. Teknikagnostisk med en rejäl dos nörderi i fantasy, bevattningssystem, smarta hem och olika sorters krypteringsnycklar. Henrik är empatisk och kommunicerar rakt i alla lägen - förutom kl 11:30 för då ringer mat och sovklockan. Fullstack, BI och tech-ledning är bara några av hans erfarenheter.
@@ -37,3 +37,6 @@
 
 - name: Johan
   tagline: "Johan är en generalist med erfarenheter inom utveckling, projektledning och produktägande. Media och finans är exempel på branscher där han har stor kännedom. Två nyckelord som speglar honom är effektiv och flexibel. Johan är i övrigt en sportfåne som konsumerar i princip vad som helst."
+
+- name: Fredrik
+  tagline: "Om det är något som Fredrik inte tycker om så är det att skriva beskrivande texter så som denna. Något som Fredrik däremot tycker om är golf och fullstack-utveckling. Tyvärr är han bara grym på en utav dem, och det är tyvärr inte golfen."
